@@ -1,4 +1,7 @@
 import { defaultTheme } from 'vuepress'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 
 export default {
     base: '/intelligent-city-document/',
@@ -13,4 +16,10 @@ export default {
             { text: '技术架构', link: '/technicalArchitecture' },
         ],
     }),
+    plugins: [
+        backToTopPlugin(),
+        nprogressPlugin(),
+        mediumZoomPlugin({
+        }),
+    ],
 }

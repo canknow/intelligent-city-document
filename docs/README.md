@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 态泊智慧城市平台
+heroText: 智慧城市平台
 tagline: 让智慧城市点亮生活，畅享未来！
 actions:
 - text: 快速了解 →
