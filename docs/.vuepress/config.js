@@ -21,7 +21,13 @@ export default {
         navbar: [
             { text: '首页', link: '/' },
             { text: '简介', link: '/introduce' },
-            { text: '系统功能', children: ['/functions/admin/','/functions/user/','/functions/business/'] },
+            { text: '系统功能', children: [
+                    '/functions/admin/',
+                    '/functions/user/',
+                    '/functions/business/',
+                    '/functions/sentryBox/'
+                ]
+            },
             { text: '技术架构', link: '/technicalArchitecture' },
         ],
     }),
