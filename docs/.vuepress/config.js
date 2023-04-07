@@ -7,6 +7,11 @@ export default {
     base: '/intelligent-city-document/',
     title: '智慧城市',
     description: '智慧城市官方文档',
+    themeConfig: {
+        search: true,
+        searchMaxSuggestions: 10,
+        lastUpdated: '最后更新于',
+    },
     theme: defaultTheme({
         logo: '/logo.png',
         navbar: [
