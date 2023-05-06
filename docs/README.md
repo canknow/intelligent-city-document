@@ -4,7 +4,7 @@ heroText: 智慧城市平台
 tagline: 让智慧城市点亮生活，畅享未来！
 actions:
 - text: 快速了解 →
-  link: /functions/introduce
+  link: /introduce
   type: primary
 
 features:
