@@ -15,6 +15,6 @@ features:
 - title: 领域驱动设计
   details: 全面贯彻领域驱动设计，使系统更加聚焦于核心业务，以业务需求为出发点进行系统设计和开发
 
-footer: Copyright © 2023 武汉神树科技
+footer: Copyright © 2023
 
 ---
